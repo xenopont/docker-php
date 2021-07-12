@@ -8,7 +8,7 @@
 # or latest latest php version
 FROM php:rc-fpm-alpine
 
-LABEL maintainer "smith404@live.com"
+LABEL maintainer="smith404@live.com"
 
 RUN apk update && \
     apk add --no-cache nginx && \
